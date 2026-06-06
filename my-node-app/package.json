@@ -1,0 +1,11 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": " no test specified\" && exit 1"
+  },node index.js","test": "echo \"Error:"keywords": [],
+  "author": "",
+  "license": "ISC"
+}
