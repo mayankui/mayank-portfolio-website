@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagisto eCommerce - Mayank Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat+Alternates:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+<body class="bg-black text-gray-200 font-sans antialiased overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 pt-4 pb-4 px-6 md:px-8 backdrop-blur-md bg-black/70 border-b border-surface">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="../index.html" class="text-xl md:text-2xl font-bold font-heading text-white tracking-widest">MAYANK.</a>
+            <a href="../index.html" class="text-sm font-medium tracking-wide hover:text-white transition-colors flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 12H5m0 0l7 7m-7-7l7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                BACK TO PORTFOLIO
+            </a>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="relative pt-32 pb-20 px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div class="space-y-4">
+                    <h1 class="text-5xl md:text-7xl font-heading font-extrabold text-white tracking-tighter">Bagisto eCommerce</h1>
+                    <p class="text-xl text-gray-400 leading-relaxed max-w-xl">Complete visual redesign and UX overhaul of the leading Open Source Laravel eCommerce platform.</p>
+                </div>
+                
+                <div class="flex flex-wrap gap-3">
+                    <span class="tech-pill">Laravel</span>
+                    <span class="tech-pill">Vue.js</span>
+                    <span class="tech-pill">Tailwind CSS</span>
+                    <span class="tech-pill">PHP</span>
+                </div>
+            </div>
+
+            <div class="bg-surface/30 border border-surface rounded-[2.5rem] p-8 md:p-12 overflow-hidden shadow-2xl">
+                <div class="space-y-6">
+                    <div class="info-table-row">
+                        <span class="info-table-label">Role</span>
+                        <span class="info-table-value">Lead UI/UX Designer</span>
+                    </div>
+                    <div class="info-table-row">
+                        <span class="info-table-label">Duration</span>
+                        <span class="info-table-value">6 Months</span>
+                    </div>
+                    <div class="info-table-row">
+                        <span class="info-table-label">Core Focus</span>
+                        <span class="info-table-value">Conversion Optimization, Design Systems, Responsive Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Image -->
+    <section class="px-8 pb-32">
+        <div class="max-w-7xl mx-auto">
+            <div class="rounded-[3rem] overflow-hidden border border-surface shadow-2xl bg-surface/20 aspect-video relative group">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80" alt="Bagisto eCommerce" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105">
+                <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Sections -->
+    <section class="px-8 pb-32 space-y-32">
+        <!-- Overview -->
+        <div class="max-w-4xl mx-auto space-y-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-heading font-bold text-white">Project Overview</h2>
+            <p class="text-lg md:text-xl text-gray-400 leading-relaxed">Bagisto is an open-source Laravel eCommerce platform used by thousands of businesses worldwide. The goal of this project was to modernize the entire storefront and admin panel, focusing on mobile-first design and a more intuitive merchant experience.</p>
+        </div>
+
+        <!-- Metrics -->
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="metric-card">
+                <div class="text-4xl font-bold text-white mb-2">45%</div>
+                <div class="text-sm text-gray-500 uppercase tracking-widest">INC. IN CONVERSION</div>
+            </div>
+            <div class="metric-card">
+                <div class="text-4xl font-bold text-white mb-2">200k+</div>
+                <div class="text-sm text-gray-500 uppercase tracking-widest">ACTIVE USERS</div>
+            </div>
+            <div class="metric-card">
+                <div class="text-4xl font-bold text-white mb-2">0.8s</div>
+                <div class="text-sm text-gray-500 uppercase tracking-widest">AVERAGE LOAD TIME</div>
+            </div>
+        </div>
+
+        <!-- Process -->
+        <div class="max-w-5xl mx-auto bg-surface/20 border border-surface rounded-[3rem] p-12 md:p-20 space-y-12">
+            <h3 class="text-2xl md:text-4xl font-heading font-bold text-white text-center">Development Process</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-4">
+                    <h4 class="text-purple-glow font-bold uppercase tracking-widest text-sm">The Challenge</h4>
+                    <p class="text-gray-400 leading-relaxed">The legacy interface was cluttered and difficult for non-technical merchants to manage. Mobile conversion rates were low due to non-responsive checkout flows and slow rendering on lower-end devices.</p>
+                </div>
+                <div class="space-y-4">
+                    <h4 class="text-accent font-bold uppercase tracking-widest text-sm">The Solution</h4>
+                    <p class="text-gray-400 leading-relaxed">Implemented a robust design system with consistent atomic components. Redesigned the checkout process into a streamlined 3-step accordion, and optimized asset delivery for lightning-fast speeds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 px-8 border-t border-surface text-center">
+        <a href="../index.html#projects" class="text-gray-500 hover:text-white transition-colors text-sm font-bold tracking-widest uppercase">
+            View All Projects
+        </a>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
