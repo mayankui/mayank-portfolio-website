@@ -2,6 +2,16 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-background: #000000;
+  --color-surface: #111111;
+  --color-accent: #EAB308;
+  --color-purple-glow: #8B5CF6;
+
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Montserrat Alternates", sans-serif;
+}
+
 /* Utilities for holographic buttons and glow */
 .holographic-btn {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
